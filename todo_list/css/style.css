@@ -1,0 +1,105 @@
+*
+{
+  box-sizing: border-box;
+}
+body{
+   margin-top: 5%;
+   margin-left: 25%;
+   margin-right: 25%;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: rgb(16, 16, 67);
+   font-family: cursive;
+}
+
+.todolist
+{
+  background-color: #5bcee2;
+  text-align: center;
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  color: rgb(59, 59, 133);
+  margin-bottom: 10px;
+}
+.add-task
+{
+  background-color:rgb(44, 16, 62);
+  color: #5bcee2;
+  padding: 3%;
+  float: right;
+  padding: 2%;
+  margin: 1px solid yellow;
+}
+.add-task:hover
+{
+  border: 1px solid orange;
+  color: #5bcee2;
+}
+.input-field
+{
+  border-radius: 15px;
+  border: none;
+  box-shadow: inset 0 0 10px rgb(7, 64, 95);
+  padding: 8px;
+  padding-left: 2%;
+  background-color: rgb(7, 219, 243);
+  color: azure;
+  font-weight: bold;
+}
+.listing-task
+{
+  border-radius: 5px;
+  color: aqua;
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  background-color: #5bcee2;
+}
+.listing-task h1
+{
+  text-align: center;
+  color: rgb(59, 59, 133);
+}
+.collection
+{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background-color: #5bcee2;
+  padding: 7px;
+}
+.rowitem 
+{
+  background-color: rgb(15, 15, 14);
+  border-radius: 15px;
+  height: 3%;
+  color: aqua;
+  padding: 5px;
+}
+.rowitem input
+{
+  padding: 5px;
+  padding-left: 2%;
+  border-radius: 8px; 
+}
+.clear
+{
+  background-color:rgb(44, 16, 62);
+  color: #5bcee2;
+  margin: 1px solid yellow;
+  margin-left: 2%;
+}
+.col-1
+{
+  padding-top: 1%;
+} 
+.clear:hover
+{
+  background-color:rgb(44, 16, 62);
+  margin: 1px solid yellow;
+  margin-left: 2%;
+  border: 1px solid orange;
+  color: #5bcee2;
+}
